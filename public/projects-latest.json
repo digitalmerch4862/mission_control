@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-03-05 21:00:02 CST",
+  "projects": [
+    {
+      "name": "Mission Control",
+      "progress": 90,
+      "focus": "Cyberpunk UI, agent logs, daily EOD visibility",
+      "owner": "Jonah",
+      "status": "In Progress"
+    },
+    {
+      "name": "Dmerch Homepage",
+      "progress": 86,
+      "focus": "Marketplace PWA + conversion optimizations",
+      "owner": "Zoro",
+      "status": "In Progress"
+    },
+    {
+      "name": "Dmerch V2",
+      "progress": 68,
+      "focus": "Techy Gumroad-like checkout and buyer portal",
+      "owner": "Luffy",
+      "status": "Build Phase"
+    },
+    {
+      "name": "Attendance SaaS",
+      "progress": 48,
+      "focus": "Schema + module planning",
+      "owner": "Nami",
+      "status": "Planning"
+    }
+  ]
+}

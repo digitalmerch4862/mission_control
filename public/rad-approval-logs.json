@@ -1,0 +1,87 @@
+[
+  {
+    "timestamp": "2026-03-05T00:05:00+08:00",
+    "summary": "CSV seed received",
+    "details": "Digital merch CSV (237 rows) landed via Telegram. Autopilot Luffy/Nami/Zoro/Sanji/Jonah chain queued to generate slugs, templates, QA, and deployment notes."
+  },
+  {
+    "timestamp": "2026-03-05T07:13:00+08:00",
+    "summary": "ClawX ready",
+    "details": "Cloned ValueCell-ai/ClawX and installed PNPM dependencies so the repo is build-ready for any automation tasks or skill integrations."
+  },
+  {
+    "timestamp": "2026-03-05T07:28:00+08:00",
+    "summary": "Landing page connected",
+    "details": "Built a dedicated cyberpunk landing page in DmerchPortal that highlights the 237-item catalog and links directly to https://paymentportal.digitalmerchs.store with the secure access reminder."
+  },
+  {
+    "timestamp": "2026-03-05T07:31:00+08:00",
+    "summary": "Mission Control tab added",
+    "details": "Rad Approval tab now appears on the Mission Control sidebar so you can always open the latest log summary without extra requests."
+  },
+  {
+    "timestamp": "2026-03-05T07:52:20+08:00",
+    "summary": "Landing page deployed",
+    "details": "DmerchPortal redeployed to Vercel via CLI; https://dmerch-portal.vercel.app now serves the payment-gated landing page."
+  },
+  {
+    "timestamp": "2026-03-05T07:58:55+08:00",
+    "summary": "Landing page refreshed",
+    "details": "Removed Mission Control references and added richer category breakdowns in the DmerchPortal landing page; build verified locally."
+  },
+  {
+    "timestamp": "2026-03-05T08:03:27+08:00",
+    "summary": "Landing page redeployed",
+    "details": "Redeployed DmerchPortal (with categorization updates) to Vercel; https://dmerch-portal.vercel.app remains live and updated."
+  },
+  {
+    "timestamp": "2026-03-05T10:14:47+08:00",
+    "summary": "Category explorer activated",
+    "details": "Landing page now lets buyers click each category card to open a searchable list of all matching products; redeployed to keep https://dmerch-portal.vercel.app/landing fresh."
+  },
+  {
+    "timestamp": "2026-03-05T10:22:17+08:00",
+    "summary": "Product explorer visuals",
+    "details": "Category cards now populate inline product grids with graphics and descriptions (no pop-up), redeployed to keep https://dmerch-portal.vercel.app/landing in sync with the buyer experience."
+  },
+  {
+    "timestamp": "2026-03-05T10:28:17+08:00",
+    "summary": "Cart-ready landing page",
+    "details": "Inline cart now copies product names and persists in localStorage, plus a quick 'Go to payment portal with cart' link feeds the portal with the selected products. Redeployed to https://dmerch-portal.vercel.app/landing."
+  },
+  {
+    "timestamp": "2026-03-05T10:57:59+08:00",
+    "summary": "Cart label simplified",
+    "details": "Updated landing page buttons to just 'Add to cart' (copy is still stored) and redeployed so https://dmerch-portal.vercel.app/landing matches the buyer flow."
+  },
+  {
+    "timestamp": "2026-03-05T10:59:50+08:00",
+    "summary": "Checkout CTA updated",
+    "details": "Shopping cart button now simply reads 'Checkout' while still passing the selected products to https://paymentportal.digitalmerchs.store/; redeployed landing page with this tweak."
+  },
+  {
+    "timestamp": "2026-03-05T14:20:53+08:00",
+    "summary": "Mission Control redeploy",
+    "details": "Rebuilt and redeployed Mission Control app to clear the 404; production now at https://mission-control-ivory-nine.vercel.app with the Rad Approval workflow and new task board."
+  },
+  {
+    "timestamp": "2026-03-05T17:53:18+08:00",
+    "summary": "Rad Approval removed",
+    "details": "Removed the Rad Approval tab and route from Mission Control since it is no longer needed; navigation now only includes core dashboards and the cart explorer elements remain logged here."
+  },
+  {
+    "timestamp": "2026-03-05T21:26:08+08:00",
+    "summary": "Game catalog landing",
+    "details": "Converted the landing page into a game catalog with official gameplay reels, new headings, and Checkout cart flow; deployed on https://dmerch-portal.vercel.app/landing."
+  },
+  {
+    "timestamp": "2026-03-05T21:29:17+08:00",
+    "summary": "Vercel deployment",
+    "details": "Pushed the latest DmerchPortal game catalog landing to https://dmerch-portal.vercel.app/landing with the Checkout flow."
+  },
+  {
+    "timestamp": "2026-03-05T21:56:21+08:00",
+    "summary": "English copy refresh",
+    "details": "Updated the landing page copy to English to match the Leadpages-style reference and redeployed to https://dmerch-portal.vercel.app/landing."
+  }
+]
